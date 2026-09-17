@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Federico Gil | Zelune</title>
+
+  <!-- Tipografía Jost -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #E7E5D8;
+      color: #696D54;
+      font-family: 'Jost', sans-serif;
+      min-height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding: 35px 22px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 430px;
+      text-align: center;
+    }
+
+    /* LOGO */
+
+    .logo {
+      width: 190px;
+      max-width: 70%;
+      height: auto;
+      display: block;
+      margin: 0 auto 45px;
+    }
+
+    /* NOMBRE */
+
+    .name {
+      font-size: 39px;
+      line-height: 1.08;
+      font-weight: 500;
+      letter-spacing: -0.5px;
+      margin-bottom: 15px;
+    }
+
+    /* CARGO */
+
+    .position {
+      font-size: 13px;
+      line-height: 1.4;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 9px;
+    }
+
+    /* EMPRESA */
+
+    .company {
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 400;
+      margin-bottom: 38px;
+    }
+
+    /* BOTÓN CONTACTO */
+
+    .contact-button {
+      display: block;
+      width: 100%;
+
+      padding: 17px 20px;
+
+      background: #696D54;
+      color: #E7E5D8;
+
+      text-decoration: none;
+
+      border-radius: 3px;
+
+      font-family: 'Jost', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1.7px;
+      text-transform: uppercase;
+
+      margin-bottom: 27px;
+
+      transition: opacity 0.2s ease;
+    }
+
+    .contact-button:hover {
+      opacity: 0.85;
+    }
+
+    /* ENLACES */
+
+    .links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      color: #696D54;
+
+      text-decoration: none;
+
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1px;
+
+      border-bottom: 1px solid #696D54;
+
+      padding-bottom: 3px;
+    }
+
+    /* PIE */
+
+    .footer {
+      margin-top: 48px;
+
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+
+      text-transform: uppercase;
+
+      opacity: 0.6;
+    }
+
+    /* CELULARES PEQUEÑOS */
+
+    @media (max-width: 380px) {
+
+      body {
+        padding: 30px 18px;
+      }
+
+      .logo {
+        margin-bottom: 35px;
+      }
+
+      .name {
+        font-size: 34px;
+      }
+
+      .position {
+        font-size: 12px;
+      }
+
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+  <main class="card">
+
+    <!-- LOGO ZELUNE -->
+    <img
+      src="logozelune.png"
+      alt="Zelune Luxury Lagoon Resort Bacalar"
+      class="logo"
+    >
+
+
+    <!-- NOMBRE -->
+
+    <h1 class="name">
+      Federico Gil
+    </h1>
+
+
+    <!-- CARGO -->
+
+    <p class="position">
+      CEO / Director General
+    </p>
+
+
+    <!-- EMPRESA -->
+
+    <p class="company">
+      Zelune Luxury Lagoon Resort Bacalar
+    </p>
+
+
+    <!-- AGREGAR CONTACTO -->
+
+    <a
+      href="Federico_Gil.vcf"
+      class="contact-button"
+    >
+      ＋ Agregar a contactos
+    </a>
+
+
+    <!-- ENLACES -->
+
+    <div class="links">
+
+      <a
+        href="https://www.zelunebacalar.com"
+        target="_blank"
+        rel="noopener"
+      >
+        Sitio web
+      </a>
+
+      <a
+        href="https://www.instagram.com/zelune.bacalar/"
+        target="_blank"
+        rel="noopener"
+      >
+        Instagram
+      </a>
+
+      <a
+        href="https://www.facebook.com/ZeluneLuxuryLagoonResortBacalar/"
+        target="_blank"
+        rel="noopener"
+      >
+        Facebook
+      </a>
+
+    </div>
+
+
+    <!-- UBICACIÓN -->
+
+    <p class="footer">
+      Bacalar · Quintana Roo · México
+    </p>
+
+  </main>
+
+</body>
+</html>
